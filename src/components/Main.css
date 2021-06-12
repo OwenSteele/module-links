@@ -1,0 +1,15 @@
+.main-wrapper {
+    font-family: Arvo; font-size: 14px; font-style: normal; font-variant: normal;
+    margin: 0;
+    padding: 0;
+}
+.home-wrapper {
+    height: 100vh;
+    width: 100%;
+    background-color: #2F4F4F;
+}
+.extras-wrapper {
+    min-height: 200px;
+    width: 100%;
+    background-color: #00ff90;
+}
