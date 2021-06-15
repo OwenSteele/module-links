@@ -8,23 +8,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "images/cv.jpg",
-      "type": "image/jpg"
-    },
-    {
-      "src": "images/localparks.jpg",
-      "type": "image/jpg"
-    },
-    {
-      "src": "images/mail.jpg",
-      "type": "image/jpg"
-    },
-    {
-      "src": "images/me.jpg",
-      "type": "image/jpg"
-    },
-    {
-      "src": "images/plannr.jpg",
+      "src": "images/",
       "type": "image/jpg"
     }
   ],

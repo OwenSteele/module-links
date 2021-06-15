@@ -24,4 +24,4 @@ const Header = (props: LayoutModel): JSX.Element => {
     );
 }
 
-export default Header;
+export default Header
