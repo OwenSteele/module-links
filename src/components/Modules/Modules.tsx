@@ -2,16 +2,19 @@ import React from "react";
 import Module from "./Module";
 import "./styles/Modules.css";
 import parser from "../../data/jsonParser";
+//import ScrollArrow from "../navigation/ScrollArrow";
 
-const Modules: React.FC = () => {
+const Modules = (/*{scrollButtonColor}: {scrollButtonColor: string}*/): JSX.Element=> {
 
-    console.log("moduleData");
     const modules = parser.parseModuleJson();
-
     const modulesOutput: React.ReactFragment = modules.map(m => <Module key={m.position} {...m} />);
 
-    return (<div className={`modules-wrapper mod-${modules.length}`}>
+    return (<div id="modules">
+        <h2>My Links</h2>
+    <div className={`modules-wrapper mod-${modules.length}`}>
             {modulesOutput}
+    </div>
+    {/*<ScrollArrow target="#extras" color={scrollButtonColor}/>*/}
     </div>);
 }
 

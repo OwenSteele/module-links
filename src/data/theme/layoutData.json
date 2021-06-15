@@ -1,0 +1,12 @@
+{
+    "websiteFont": "monaco,Consolas,Lucida Console,monospace",    
+    "titleHeightCss": "100vh",
+    "titleText": "module-links title",
+    "titleBackgroundColor": "darkslategray",
+    "titleDivBackgroundColor": "#000000",
+    "titleDivColor": "#ffffff",
+    "titleBackgroundImageUrl": "https://owensteele.co.uk/pictures/home3.jpg",
+    "titleBio": "",
+    "titleImageUrl": "",
+    "scrollButtonColor": "#000000"
+}

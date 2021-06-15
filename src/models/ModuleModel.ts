@@ -7,6 +7,8 @@ interface ModuleModel {
     secondaryLinkText: string;
     bio: string;
     backgroundColor: string;
+    textColor: string;
+    textHoverColor: string;
     backgroundImageUrl: string;    
 }
 

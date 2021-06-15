@@ -1,14 +1,20 @@
-
-import ModuleModel from '../models/moduleModel';
+import LayoutModel from '../models/LayoutModel';
+import ModuleModel from '../models/ModuleModel';
 import moduleData from "./modules/moduleData.json";
+import layoutData from "./theme/layoutData.json";
 
 const parser = {
 
     parseModuleJson: (): ModuleModel[] => {
 
-        console.log(moduleData);
-
         const data: ModuleModel[] = moduleData;
+
+        return data;
+    },
+
+    parseLayoutJson: (): LayoutModel => {
+
+        const data: LayoutModel = layoutData;
 
         return data;
     }

@@ -4,12 +4,20 @@
     padding: 0;
 }
 .home-wrapper {
-    height: 100vh;
     width: 100%;
-    background-color: #2F4F4F;
+    background-color: #ffffff;
 }
 .extras-wrapper {
-    min-height: 200px;
+    height:min-content;
     width: 100%;
-    background-color: #00ff90;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.extras-wrapper a{
+    text-decoration: none;
+    color: #00ff90;
 }

@@ -2,12 +2,68 @@
     height: 10%;
     background-color: greenyellow;
     margin: 0;
-    padding: 0;
+    padding: auto;
+    display: flex; 
+    flex-direction: column;   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.70;
+}
+
+.header > div {
+    background-color: rgba(255, 255, 255, .8);
+    margin: auto;
+    padding: 1em 2em;
+    width: auto;
+    max-width: 30%;
+    opacity: 0.80;
+}
+
+.header img {
+    height: 50%;
+    width: auto;
+    border-radius: 50%;
 }
 
 .header h1 {
-    font-size: 40px;
-    font-weight: bolder;
-    padding: 10px;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 0;
     margin: 0;
+    letter-spacing: .25em;
+}
+
+.header p {
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 10px auto;
+    margin: 0 auto;
+    text-align:center;
+    width: 50%;
+    word-wrap: normal;
+}
+
+.header .scroll-btn {
+    max-height: 15%;
+    margin: 0 auto 1em;
+    background: transparent;
+    opacity: 1;
+}
+@media screen and (max-width: 600px){
+    .header > div {
+        padding: 2em 4em;
+        max-width: 80%;
+    }
+    .header h1 {
+        font-size: 2em;
+        letter-spacing: .1em;
+    }
+    .header .scroll-btn {
+        height: 30%;
+        margin: 0 auto 6em;
+        background: transparent;
+        opacity: 1;
+    }
 }

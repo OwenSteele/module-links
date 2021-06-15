@@ -1,63 +1,155 @@
+#modules {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h2 {
+    height: 2%;
+    padding: 0;
+    margin: 1em 0 -1em;
+}
+
 .modules-wrapper {
     width: 100%;
-    height: 80%;
-    max-height: 100%;
+    height: 95%;
     display: flex;
-    flex-wrap:wrap;     
-    padding: 0px;
-    margin: 0px;
-    background-color: steelblue;
+    flex-wrap:wrap;
+    justify-content: center;     
+    padding: 2.5em 4em 0;
+    margin: auto;
+    max-width: 1500px;
+}
+.modules-wrapper > * {
+    margin: 0;
+}
+.modules-note {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    clear: both;
+    width: 100%;
+    height: 20px;
 }
 
 .mod-1 > div {
     width: 100%;
-    height: 100%;
+    height: 35%;
     flex: 1 1 90%; 
 }
 .mod-2 > div {
     width: 50%;
-    height: 100%;  
+    height: 40%;  
     flex: 1 1 40%;  
 }
 .mod-3>div {
     width: 50%;
-    height: 50%;  
+    height: 35%;  
     flex: 1 1 40%;
 }
 .mod-4 > div { 
     width: 50%;
-    height: 50%;  
+    height: 35%; 
     flex: 1 1 40%;  
 }
 .mod-5 > div {
     width: 33%;
-    height: 50%; 
+    height: 35%; 
     flex: 1 1 20%;
 }
 .mod-6 > div { 
     width: 33%;
-    height: 50%; 
-    flex: 1 1 20%;   
+    height: 40%; 
+    flex: 1 1 30%;   
 }
 .mod-7 > div {
     width: 25%;
-    height: 33%;
+    height: 40%;
     flex: 1 1 15%; 
 }
 .mod-8 > div { 
     width: 25%;
-    height: 33%;   
+    height: 30%;   
     flex: 1 1 15%; 
 }
 .mod-9 > div { 
     width: 25%;
-    height: 33%;   
+    height: 30%;   
     flex: 1 1 15%; 
 }
 
 @media screen and (max-width: 600px){
     .modules-wrapper {
-        flex-direction: column;
-        justify-content: center;
+        width: 100%;
+        height: 95%;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;     
+        padding: 4em 0 0;
+        margin: auto;        
+        max-width: 500px;
+    }
+    .mod-1 > div {
+        flex: 1 1 90%; 
+        height: 30%;    
+    }
+    .mod-2 > div {
+        flex: 1 1 100%;  
+        height: 30%;     
+    }
+    .mod-3>div {
+        flex: 1 1 100%;  
+        height: 30%;     
+    }
+    .mod-4 > div { 
+        flex: 1 1 100%;   
+        height: 30%;    
+    }
+    .mod-5 > div {
+        flex: 1 1 100%;  
+        height: 30%;     
+    }
+    .mod-6 > div { 
+        flex: 1 1 100%;
+        height: 30%;    
+    }
+    .mod-7 > div {
+        flex: 1 1 100%; 
+        height: 30%;      
+    }
+    .mod-8 > div {  
+        flex: 1 1 100%;  
+        height: 30%;     
+    }
+    .mod-9 > div { 
+        flex: 1 1 100%;  
+        height: 30%;     
+    } 
+}
+@media screen and (max-width: 1600px){
+    .modules-wrapper {
+        width: 100%;
+        height: 95%;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;     
+        padding: 2em 2em 0;
+        margin: auto;
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .modules-wrapper {
+        width: 100%;
+        height: 95%;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;     
+        padding: 2em 1em 0;
+        margin: auto;
+        max-width: 1000px;
+    }
+    #modules {
+        overflow-y: auto;
     }
 }
